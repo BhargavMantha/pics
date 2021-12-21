@@ -9,7 +9,10 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="ui container" style={{ marginTop: '10px' }}>
+      <div
+        className="ui container"
+        style={{ marginTop: '10px', marginBottom: '10px' }}
+      >
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <label>Image Search</label>
